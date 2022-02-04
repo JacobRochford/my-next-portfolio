@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   AiFillGithub,
   AiOutlineLinkedin,
@@ -34,8 +35,12 @@ const IconContainer = () => {
       >
         <AiFillFileText />
       </SocialIcons>
-      <SocialIcons target="_blank" href='mailto:jrochford357@gmail.com' title="Send Email">
-        <AiOutlineMail />
+      <SocialIcons>
+        <Link href='/contact'>
+          <div>
+            <AiOutlineMail />
+          </div>
+        </Link>
       </SocialIcons>
     </StyledIconContainer>
   );
