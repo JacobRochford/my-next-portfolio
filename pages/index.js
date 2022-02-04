@@ -48,7 +48,6 @@ export default function Home() {
         />
       </Head>
 
-      <Header />
       <Container>
         <Hero />
         <Animation />
