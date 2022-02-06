@@ -1,12 +1,12 @@
-import Link from "next/link";
+import Link from 'next/link';
 import {
   AiFillGithub,
   AiOutlineLinkedin,
   AiFillFileText,
   AiOutlineMail,
-} from "react-icons/ai";
-import SocialIcons from "../SocialIcons/SocialIcons";
-import { StyledIconContainer } from "./IconContainer.styled";
+} from 'react-icons/ai';
+import SocialIcons from '../SocialIcons/SocialIcons';
+import { StyledIconContainer } from './IconContainer.styled';
 
 const IconContainer = () => {
   return (
@@ -35,13 +35,13 @@ const IconContainer = () => {
       >
         <AiFillFileText />
       </SocialIcons>
-      <SocialIcons>
-        <Link href='/contact'>
-          <div>
+      <Link href="/contact" passHref>
+        <div>
+          <SocialIcons title="Contact Me">
             <AiOutlineMail />
-          </div>
-        </Link>
-      </SocialIcons>
+          </SocialIcons>
+        </div>
+      </Link>
     </StyledIconContainer>
   );
 };
