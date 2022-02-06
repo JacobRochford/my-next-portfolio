@@ -6,8 +6,8 @@ export const StyledForm = styled.form`
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  box-shadow: 30px 0px 40px rgba(200, 200, 200, 0.3),
-    -30px 0px 40px rgba(200, 200, 200, 0.3);
+  box-shadow: 20px 0px 40px rgba(200, 200, 200, 0.3),
+    -20px 0px 40px rgba(200, 200, 200, 0.3);
   border-radius: 15px;
   height: 60vh;
   width: 60vw;
@@ -21,7 +21,7 @@ export const StyledForm = styled.form`
     display: flex;
     place-content: center;
     color: red;
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 20px 0 40px 0;
   }
 
@@ -37,7 +37,7 @@ export const StyledForm = styled.form`
 
   button {
     background-color: #7df9ff;
-    color: #fff;
+    color: #333;
     padding: 0.5rem 2rem;
     border-radius: 15px;
     font-size: 1.1rem;
